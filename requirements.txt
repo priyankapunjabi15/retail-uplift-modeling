@@ -1,0 +1,11 @@
+pandas 
+numpy 
+matplotlib 
+seaborn 
+scikit-learn 
+scipy 
+statsmodels 
+mysql-connector-python 
+sqlalchemy 
+python-dotenv 
+jupyter 
