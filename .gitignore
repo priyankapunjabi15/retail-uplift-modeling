@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+cat >> .gitignore << 'EOF'
+
+# Project-specific
+.env
+data/raw/*
+!data/raw/.gitkeep
+artifacts/models/*
+!artifacts/models/.gitkeep
+*.pkl
+*.pt
+*.h5
+.ipynb_checkpoints/
+EOF
